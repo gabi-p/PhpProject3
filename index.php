@@ -2,11 +2,16 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title></title>
+        <title>My Test Page</title>
     </head>
     <body>
         <?php
-        // put your code here
+        
+        function test ($a){
+            return $a;
+        }
+        
+        echo test('testing');
         
         ?>
     </body>
